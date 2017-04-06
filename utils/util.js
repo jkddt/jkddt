@@ -16,6 +16,11 @@ function formatNumber(n) {
   return n[1] ? n : '0' + n
 }
 
+function getAppTitle() {
+  return getApp().globalData.appTitle
+}
+
 module.exports = {
-  formatTime: formatTime
+  formatTime: formatTime,
+  getAppTitle: getAppTitle
 }

@@ -1,0 +1,9 @@
+<view class="page">
+  <scroll-view class="commodity_screen" wx:if="{{showModalStatus}}" scroll-y="true" scroll-into-view="i115">
+    <block wx:for="{{examData}}" wx:key="*this">
+      <text class="exam_select" id="i{{index}}">{{item}}</text>
+    </block>
+  </scroll-view>
+  <view animation="{{animationData}}" class="commodity_attr_box" wx:if="{{showModalStatus}}" bindtap="hideModal">隐藏</view>
+  <view bindtap="showModal">显示</view>
+</view>
