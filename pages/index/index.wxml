@@ -4,6 +4,16 @@
   <view class="page__hd">
     <view class="page__title">科目一</view>
     <view class="page__desc">小车(C1/C2)理论考试</view>
+    <navigator class="wx-navigator">
+      <view style="display:flex;align-items:center;">
+        <image style="width:40px;height:40px;margin-right:11px" src="http://qty83k.creatby.com/materials/origin/3eaaad80591644c9eb05d28b083623e7_origin.png"></image>
+        <view class="view1">
+          <text style="display: block;font-size: 16px; color: #8f8f8f;">骚扰拦截</text>
+          <text style="display: block;font-size: 12px; color: #8f8f8f;">号码库有更新，点击更新</text>
+        </view>
+      </view>
+       <text style="display: block;color: #c7c7c7;">❯</text>
+    </navigator>
   </view>
   <view class="page__bd">
     <view class="weui-grids">
