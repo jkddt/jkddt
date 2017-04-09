@@ -4,7 +4,7 @@
   <view class="page__hd">
     <view class="page__title">科目一</view>
     <view class="page__desc">小车(C1/C2)理论考试</view>
-    <navigator class="wx-navigator">
+    <navigator class="wx-navigator" url="../logs/logs">
       <view style="display:flex;align-items:center;">
         <image style="width:40px;height:40px;margin-right:11px" src="http://qty83k.creatby.com/materials/origin/3eaaad80591644c9eb05d28b083623e7_origin.png"></image>
         <view class="view1">

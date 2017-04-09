@@ -1,6 +1,12 @@
+
 <!--logs.wxml-->
 <view class="container log-list">
-  <block wx:for="{{logs}}" wx:for-item="log" wx:key="*this">
+
+  <!--<block wx:for="{{logs}}" wx:for-item="log" wx:key="*this">
     <text class="log-item">{{index + 1}}. {{log}}</text>
-  </block>
+  </block>-->
+  <view class="touch-item {{item.isTouchMove ? 'touch-move-active' : ''}}" data-index="{{index}}" bindtouchstart="touchstart" bindtouchmove="touchmove" wx:for="{{logs}}" wx:key="*this">
+    <view class="content">{{item.content}}</view>
+    <view class="del" catchtap="del" data-index="{{index}}">删除</view>
+  </view>
 </view>

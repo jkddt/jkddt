@@ -1,5 +1,5 @@
 <view class="page">
   <block wx:for="{{examData}}" wx:key="*this">
-    <text class="dataItem {{item.isClick ? 'click-active' : ''}} " data-index="{{index}}" bindtap="itemClick" >{{item.content}}</text>
+    <text class="dataItem {{item.isClick ? 'click-active' : ''}} " data-index="{{index}}" bindtap="itemClick">{{item.content}}</text>
   </block>
 </view>
